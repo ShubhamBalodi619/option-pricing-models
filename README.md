@@ -14,13 +14,17 @@ A closed-form solution for pricing **European call and put options** assuming lo
 - Inputs: Spot price, strike price, time to maturity, risk-free rate, volatility, option type  
 - Outputs: Theoretical option price
 
+### ✅ Binomial Option Pricing Model  
+A discrete-time lattice-based model that can price **European and American options**. It uses a stepwise approach to model stock price movements and apply backward induction to compute option values.
+
+- Inputs: Spot price, strike price, time to maturity, volatility, risk-free rate, number of steps, option type (call/put), option style (European/American)  
+- Outputs: Estimated option price using backward induction
 ---
 
 ## 📅 Coming Soon
 
 These models will be added to the repository soon:
 
-- **Binomial Option Pricing Model**
 - **Monte Carlo Simulation for Option Pricing**
 - **Greeks Calculation (Delta, Gamma, Vega, etc.)**
 
