@@ -40,4 +40,4 @@ It uses a discrete-time lattice to simulate possible paths of the underlying ass
 You can install the dependencies using:
 
 ```bash
-pip install numpy scipy
+pip install numpy
