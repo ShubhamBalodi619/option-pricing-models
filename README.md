@@ -1,6 +1,6 @@
-# Option Pricing – Binomial Tree Model
+# Barrier Option Pricing – Binomial Tree Model
 
-This project implements the **Binomial Tree method** to calculate the theoretical price of European-style **call and put options** using Python.
+This project implements the **Binomial Tree method** to calculate the theoretical price of barrier **call and put options** using Python.
 
 It uses a discrete-time lattice to simulate possible paths of the underlying asset price and applies backward induction to derive the fair value of the option.
 
