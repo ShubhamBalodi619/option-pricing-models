@@ -24,14 +24,12 @@ It uses a discrete-time lattice to simulate possible paths of the underlying ass
   - **T**: Time to maturity (in years)  
   - **Rf**: Risk-free rate of return  
   - **vol**: Annualized volatility
-  - **opt_style**: Option style – `"e"` for European, `"a"` for American
   - **opt_type**: Option type – `"c"` for call, `"p"` for put  
 - Steps:
   - Computes time step size dt, up (u) and down (d) factors
   - Derives the risk-neutral probability p and discount factor
   - Initializes asset prices at maturity and computes terminal option payoffs
   - Uses backward induction to calculate the option price at time zero
-  - For American options, checks for early exercise at each step
 
 ---
 
